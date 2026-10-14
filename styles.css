@@ -1,0 +1,31 @@
+:root {
+  color-scheme: light;
+  font-family: Arial;
+  color: #202020;
+  background: #fff;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+main { width: min(100% - 20px, 1080px); margin: auto;}
+.paper-header { text-align: center; margin-bottom: 20px; }
+.authors { margin: 0; font-size: 1.2rem;}
+.affiliation { margin: 0; font-size: 1.2rem;}
+
+.template-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.template { padding: 20px; background: #fafafa; border: 1px solid #dedede; border-radius: 2px; }
+.templates h3 { margin: 0 0 5px 0;}
+.template p { margin: 0; font-size: 0.9rem; text-align: justify;}
+.attribution { color: #686868; font-size: 0.8rem;}
+
+.comparison { margin-bottom: 20px; }
+.comparison-grid { display: grid; grid-template-columns: .75fr 0.75fr repeat(4, 1fr); column-gap: 5px; row-gap: 5px;}
+figure { margin: 0; }
+.visual figcaption {text-align: center; font-size: 1.2rem;}
+.visual img { width: 100%;}
+.dream-remark { grid-column: 4; text-align: justify; margin: 5px; font-size: 0.7rem; color: #5a5a5a; }
+.shared-remark { grid-column: 5 / 7; margin: 5px; text-align: justify; display: grid; grid-template-columns: 1.3fr .7fr;}
+.outpainting-result img {display: block; margin-inline: auto; height: 128px;}
+.outpainting-result figcaption { font-weight: bold; font-size: 0.7rem; color: #5a5a5a; text-align: center;}
+.outpainting-result figcaption span { display: block; }
+.shared-remark > p { margin: 0; font-size: 0.7rem; color: #5a5a5a; }
